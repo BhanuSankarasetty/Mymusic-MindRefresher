@@ -113,6 +113,7 @@ body {
     background-color: #252525;
     position: relative;
     transition: all .9s;
+    text-align: center;
 }
 .card:hover{
     background-color: rgb(105, 103, 103);
@@ -125,7 +126,7 @@ body {
 }
 
 .card img {
-    width: 100%;
+    width: 90%;
     object-fit: contain;
 }
 
@@ -208,8 +209,11 @@ body {
 }
 
 .hamburger {
+    position: fixed;
     display: none;
     cursor: pointer;
+    z-index: 999;
+
 }
 
 .hamburgerContainer {
@@ -334,6 +338,13 @@ body {
         position: fixed;
         top: 0;
     }
+    .hamburgerContainer img{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+     .hamburgerContainer svg{
+        display: none;
+    }
 
     .songinfo,
     .songtime {
@@ -433,6 +444,11 @@ body {
     .left{ 
         width: 100vw;
     }
+    .hamburgerContainer img{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+   
 
  
 

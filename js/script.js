@@ -139,10 +139,12 @@ async function main() {
 
     document.querySelector(".hamburger").addEventListener("click", () => {
         document.querySelector(".left").style.left = "0";
+        document.querySelector(".hamburgerContainer img").style.left = "-120%";
     });
 
     document.querySelector(".close").addEventListener("click", () => {
         document.querySelector(".left").style.left = "-120%";
+        document.querySelector(".hamburgerContainer img").style.left = "0";
     });
 
     previous.addEventListener("click", () => {
