@@ -17,11 +17,13 @@ Welcome to **Mymusic - Mind Refresher**, a simple and engaging personal music pl
 - 🎨 Fully responsive layout using basic CSS
 - 📜 Clean structure, easy to modify and enhance
 
+<br>
 ## 🌐 Static Website with Dynamic Behavior
 
 - **Static**: The HTML/CSS files are served as-is, with no backend or server-side processing.
 - **Dynamic Behavior**: JavaScript adds interactivity such as reading files, updating the UI, and controlling audio playback.
 
+<br>
 ## 🚀 How to Run Locally
 
 1. **Clone this repository**:
@@ -43,26 +45,27 @@ Copy your .mp3 or audio files into the songs directory.
 
 Optionally, use the UI to load local folders dynamically (browser permission needed).
 
+<br>
 📁 Project Structure
 
-Mymusic-MindRefresher/
-│
-├── index.html
-├── style.css
-├── script.js
-├── songs/
-│   ├── your-audio-file.mp3
-│   └── ...
-└── README.md
-
-🛠️ Built With
+Mymusic-MindRefresher/\n
+│\n
+├── index.html \n
+├── style.css \n
+├── script.js\n
+├── songs/\n
+│   ├── your-audio-file.mp3\n
+│   └── ...\n
+└── README.md\n
+<br>
+🛠️ Built With \n
 HTML5
 
 CSS3
 
 Vanilla JavaScript
 
-
+<br>
 
 💡 Future Enhancements
 Add playlist management
@@ -73,6 +76,6 @@ Improve mobile responsiveness
 
 Integration with music APIs (Spotify/YouTube Music)
 
-
+<br>
 👤 Author
 Bhanu Murari Sankarasetty
