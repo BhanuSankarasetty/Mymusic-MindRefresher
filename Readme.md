@@ -59,7 +59,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Mymusic-MindRefresher.git
+git clone https://github.com/BhanuSankarasetty/Mymusic-MindRefresher.git
 ```
 
 Navigate to the project folder:
